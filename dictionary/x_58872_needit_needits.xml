@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0d6db1aa838c4310ce1d1a30ceaad379" extends="task" label="NeedIts" max_length="40" name="x_58872_needit_needits" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element choice="1" default="javascript:ChangeModel.getDefaultTypeValue()" dynamic_default_value="d1442bd4c3c02010b1343f52c1d3aea5" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="choice" use_dynamic_default="true">
             <choice>
                 <element inactive_on_update="false" label="Human Resources" sequence="1" value="hr"/>
